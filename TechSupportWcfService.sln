@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechSupportWcfService", "TechSupportWcfService\TechSupportWcfService.csproj", "{8AAA2250-716D-4CA3-B646-B4200CA765C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechSupportWebClient", "TechSupportWebClient\TechSupportWebClient.csproj", "{061EF4C9-BBDC-4A5E-A0BC-F883BB1D7C0C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8AAA2250-716D-4CA3-B646-B4200CA765C7} = {8AAA2250-716D-4CA3-B646-B4200CA765C7}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{8AAA2250-716D-4CA3-B646-B4200CA765C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AAA2250-716D-4CA3-B646-B4200CA765C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AAA2250-716D-4CA3-B646-B4200CA765C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061EF4C9-BBDC-4A5E-A0BC-F883BB1D7C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061EF4C9-BBDC-4A5E-A0BC-F883BB1D7C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061EF4C9-BBDC-4A5E-A0BC-F883BB1D7C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061EF4C9-BBDC-4A5E-A0BC-F883BB1D7C0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

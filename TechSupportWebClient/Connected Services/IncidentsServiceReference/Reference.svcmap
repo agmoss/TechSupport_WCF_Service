@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="22866083-866c-4a6f-ab9d-25afc71e3187" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:56426/TechSupportService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TechSupportService.wsdl" MetadataType="Wsdl" ID="9ab6ba85-3f5b-4e58-8a7d-1b425e288036" SourceId="1" SourceUrl="http://localhost:56426/TechSupportService.svc?wsdl" />
+    <MetadataFile FileName="TechSupportService.xsd" MetadataType="Schema" ID="3056776b-35de-4e6c-bfeb-602fa8c37e4f" SourceId="1" SourceUrl="http://localhost:56426/TechSupportService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TechSupportService1.xsd" MetadataType="Schema" ID="1769cba1-ab0e-4317-822d-931ff6ef4c61" SourceId="1" SourceUrl="http://localhost:56426/TechSupportService.svc?xsd=xsd3" />
+    <MetadataFile FileName="TechSupportService2.xsd" MetadataType="Schema" ID="dbbf61ec-e0c4-4196-b595-e921c0838891" SourceId="1" SourceUrl="http://localhost:56426/TechSupportService.svc?xsd=xsd0" />
+    <MetadataFile FileName="TechSupportService3.xsd" MetadataType="Schema" ID="eea0a61a-f034-4c08-9025-1d937b1957df" SourceId="1" SourceUrl="http://localhost:56426/TechSupportService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TechSupportService.disco" MetadataType="Disco" ID="d858a7d4-3bec-4e3a-a6d8-4cfa67d45529" SourceId="1" SourceUrl="http://localhost:56426/TechSupportService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
